@@ -21,12 +21,10 @@ export default function Page() {
         name="Cosmo" 
         legs={2} 
       />
-      <Card>
-        <>
-          <h3 className='text-3xl font-bold italic'>Não é o mais forte das espécies que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças.</h3>
-          <p className='text-right'>- Charles Darwin</p>
-        </>
-      </Card>
+      <Card 
+        phrase='Não é o mais forte das espécies que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças.'
+        author='Charles Darwin'
+      />
     </div>
   )
 }
