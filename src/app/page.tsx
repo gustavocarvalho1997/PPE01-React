@@ -1,11 +1,10 @@
 import React from 'react'
-import { Square, Circle } from '@/components/Geo'
+import { GeoForm } from '@/components/GeoForm'
 
 export default function Page() {
   return (
     <div>
-      <Square/>
-      <Circle />
+      <GeoForm />
     </div>
   )
 }
