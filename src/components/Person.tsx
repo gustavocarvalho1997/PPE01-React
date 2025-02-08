@@ -5,10 +5,13 @@ const getWeekday = (today: Date): string => {
 type Props = {
     name: string;
     legs: number;
-    avatar: string;
+    avatar?: string;
 }
 
-    export const Person = ({ name, legs, avatar }: Props) => {
+    export const Person = ({ 
+        name, 
+        legs, 
+        avatar = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU9Fs__w9Z8GJg_zp_4KbGqqwYnwCXsXHT7w&s' }: Props) => {
     const today: Date = new Date();
 
     return (

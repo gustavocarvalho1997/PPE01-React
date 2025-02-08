@@ -16,6 +16,10 @@ export default function Page() {
         legs={2} 
         avatar="https://pbs.twimg.com/media/EGPHaO9WoAA4vAR.jpg"
       />
+      <Person 
+        name="Cosmo" 
+        legs={2} 
+      />
     </div>
   )
 }
