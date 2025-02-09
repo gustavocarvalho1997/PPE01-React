@@ -1,9 +1,9 @@
 import React from 'react'
-import { Atividade01 } from '@/components/Atividade01'
+import { Atividade02 } from '@/components/Atividade02'
 
 
 export default function Page() {
   return (
-    <Atividade01/>
+    <Atividade02 rate={3}/>
   )
 }
